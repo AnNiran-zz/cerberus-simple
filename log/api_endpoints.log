@@ -1,0 +1,247 @@
+2019/07/13 10:14:10 5d2984c22d4e013128b30170 Listening for api requests
+2019/07/13 09:12:59 5d29a09b64deae33db4f44ae Listening for api requests
+2019/07/13 09:25:56 5d29a3a464deae350997cd43 Listening for api requests
+2019/07/13 09:27:42 5d29a40e64deae350997cd45 could not create client conn: could not connect to localhost:13013: dialing connection timed out [localhost:13013]
+2019/07/13 09:27:42 5d29a40e64deae350997cd45 Error: could not create client conn: could not connect to localhost:13013: dialing connection timed out [localhost:13013]
+2019/07/13 09:28:36 5d29a44464deae350997cd47 could not create client conn: could not connect to localhost:13013: dialing connection timed out [localhost:13013]
+2019/07/13 09:28:36 5d29a44464deae350997cd47 Error: could not create client conn: could not connect to localhost:13013: dialing connection timed out [localhost:13013]
+2019/07/13 09:39:53 5d29a6e964deae0502b71cf5 Listening for api requests
+2019/07/13 09:41:34 5d29a74e64deae0502b71cf7 First name value cannot be an empty string
+2019/07/13 09:41:34 5d29a74e64deae0502b71cf7 Error: First name value cannot be an empty string
+2019/07/13 09:47:44 5d29a8c064deae0502b71cf8 event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: queryChaincode failed: Multiple errors occurred: - Transaction processing for endorser [localhost:13009]: Endorser Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection timed out [localhost:13009] - Transaction processing for endorser [localhost:13005]: Endorser Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection timed out [localhost:13005]
+2019/07/13 09:48:29 5d29a8c064deae0502b71cf8 Error: event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: queryChaincode failed: Multiple errors occurred: - Transaction processing for endorser [localhost:13009]: Endorser Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection timed out [localhost:13009] - Transaction processing for endorser [localhost:13005]: Endorser Client Status Code: (2) CONNECTION_FAILED. Description: dialing connection timed out [localhost:13005]
+2019/07/13 10:09:41 5d29ade564deae5e91585d0f Listening for api requests
+2019/07/13 12:11:37 5d29ca7964deae33375987ad Listening for api requests
+2019/07/13 12:29:04 5d29ce9064deae33375987b0 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 12:29:04 5d29ce9064deae33375987b0 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 12:29:22 5d29cea264deae33375987b2 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 12:29:22 5d29cea264deae33375987b2 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 12:59:34 5d29d5b664deae2aacf5205f Listening for api requests
+2019/07/13 13:00:01 5d29d5d164deae2aacf52061 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:00:01 5d29d5d164deae2aacf52061 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:00:43 5d29d5fb64deae2aacf52063 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:00:43 5d29d5fb64deae2aacf52063 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:02:35 5d29d66b64deae2aacf52064 Phone value cannot be an empty string
+2019/07/13 13:02:35 5d29d66b64deae2aacf52064 Error: Phone value cannot be an empty string
+2019/07/13 13:02:45 5d29d67564deae2aacf52066 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:02:45 5d29d67564deae2aacf52066 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:05:28 5d29d71864deae2aacf52068 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:05:28 5d29d71864deae2aacf52068 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:08:24 5d29d7c864deae2aacf5206a Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 13:08:24 5d29d7c864deae2aacf5206a Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 17:04:04 5d29e4d42d4e014b37f2696d Listening for api requests
+2019/07/13 17:04:04 5d29e4d42d4e014b37f2696e Server stopped because of error
+2019/07/13 17:04:04 5d29e4d42d4e014b37f2696e Error: listen tcp :8000: bind: address already in use
+2019/07/13 17:04:20 5d29e4e42d4e014bd8b89018 Listening for api requests
+2019/07/13 17:04:20 5d29e4e42d4e014bd8b89019 Server stopped because of error
+2019/07/13 17:04:20 5d29e4e42d4e014bd8b89019 Error: listen tcp :8000: bind: address already in use
+2019/07/13 17:04:39 5d29e4f72d4e014c6e3aa7e5 Listening for api requests
+2019/07/13 17:04:56 5d29e5082d4e014c6e3aa7e7 event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: payloads for config block do not match
+2019/07/13 17:04:56 5d29e5082d4e014c6e3aa7e7 Error: event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: payloads for config block do not match
+2019/07/13 17:10:50 5d29e66a2d4e011f6ca8fdf6 Listening for api requests
+2019/07/13 17:12:52 5d29e6e42d4e011f6ca8fdf8 First name value cannot be an empty string
+2019/07/13 17:12:52 5d29e6e42d4e011f6ca8fdf8 Error: First name value cannot be an empty string
+2019/07/13 17:14:10 5d29e7322d4e011f6ca8fdfa Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 17:14:10 5d29e7322d4e011f6ca8fdfa Error: Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 17:15:03 5d29e7672d4e0123f946adab Listening for api requests
+2019/07/13 17:15:03 5d29e7672d4e0123f946adac Server stopped because of error
+2019/07/13 17:15:03 5d29e7672d4e0123f946adac Error: listen tcp :8000: bind: address already in use
+2019/07/13 17:16:45 5d29e7cd2d4e012507923c44 Listening for api requests
+2019/07/13 14:51:26 5d29efee64deae5f552a9253 Listening for api requests
+2019/07/13 15:06:49 5d29f38964deae104b32de4f Listening for api requests
+2019/07/13 15:09:59 5d29f44764deae104b32de52 Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 15:09:59 5d29f44764deae104b32de52 Error: Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 15:12:46 5d29f4ee64deae104b32de53 Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 15:12:46 5d29f4ee64deae104b32de53 Error: Client Status Code: (5) TIMEOUT. Description: request timed out or been cancelled
+2019/07/13 16:09:35 5d2a023f64deae4896caed43 Listening for api requests
+2019/07/13 16:09:40 5d2a024464deae4896caed45 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 16:09:40 5d2a024464deae4896caed45 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 16:10:18 5d2a026a64deae4896caed47 failed to initialize configuration: unable to load config backend: loading config file failed: /home/anniran/server/go/src/cerberus/hl/config.yaml: While parsing config: yaml: line 436: mapping values are not allowed in this context
+2019/07/13 16:10:18 5d2a026a64deae4896caed47 Error: failed to initialize configuration: unable to load config backend: loading config file failed: /home/anniran/server/go/src/cerberus/hl/config.yaml: While parsing config: yaml: line 436: mapping values are not allowed in this context
+2019/07/13 16:15:06 5d2a038a64deae4896caed49 Unknown selector name
+2019/07/13 16:15:06 5d2a038a64deae4896caed49 Error: Unknown selector name
+2019/07/13 16:17:12 5d2a040864deae4896caed4a could not create client conn: could not connect to communicatepr.whitebox.cerberus.dev:7051: dialing connection timed out [communicatepr.whitebox.cerberus.dev:7051]
+2019/07/13 16:17:12 5d2a040864deae4896caed4a Error: could not create client conn: could not connect to communicatepr.whitebox.cerberus.dev:7051: dialing connection timed out [communicatepr.whitebox.cerberus.dev:7051]
+2019/07/13 16:21:10 5d2a04f664deae4896caed4b First name value cannot be an empty string
+2019/07/13 16:21:10 5d2a04f664deae4896caed4b Error: First name value cannot be an empty string
+2019/07/13 16:22:37 5d2a054d64deae4896caed4c First name value cannot be an empty string
+2019/07/13 16:22:37 5d2a054d64deae4896caed4c Error: First name value cannot be an empty string
+2019/07/13 16:23:45 5d2a059164deae4bddfc56ce Listening for api requests
+2019/07/13 16:23:49 5d2a059564deae4bddfc56cf Last name value cannot be an empty string
+2019/07/13 16:23:49 5d2a059564deae4bddfc56cf Error: Last name value cannot be an empty string
+2019/07/13 16:27:23 5d2a066b64deae4bddfc56d1 could not create client conn: could not connect to communicatepr.whitebox.cerberus.dev:7051: dialing connection timed out [communicatepr.whitebox.cerberus.dev:7051]
+2019/07/13 16:27:23 5d2a066b64deae4bddfc56d1 Error: could not create client conn: could not connect to communicatepr.whitebox.cerberus.dev:7051: dialing connection timed out [communicatepr.whitebox.cerberus.dev:7051]
+2019/07/13 16:36:52 5d2a08a464deae7e4e2724a6 Listening for api requests
+2019/07/13 16:40:44 5d2a098c64deae7e4e2724a8 event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: payloads for config block do not match
+2019/07/13 16:40:44 5d2a098c64deae7e4e2724a8 Error: event service creation failed: could not get chConfig cache reference: QueryBlockConfig failed: Endorser Client Status Code: (3) ENDORSEMENT_MISMATCH. Description: payloads for config block do not match
+2019/07/13 16:55:48 5d2a0d1464deae3c1f6aead9 Listening for api requests
+2019/07/13 16:55:53 5d2a0d1964deae3c1f6aeadb Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 16:55:53 5d2a0d1964deae3c1f6aeadb Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 16:55:59 5d2a0d1f64deae3c1f6aeadd Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 16:55:59 5d2a0d1f64deae3c1f6aeadd Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 17:03:15 5d2a0ed364deae3c1f6aeae1 Document with name mynewdocument already exists. 
+2019/07/13 17:03:15 5d2a0ed364deae3c1f6aeae1 Error: Document with name mynewdocument already exists. 
+2019/07/13 17:04:39 5d2a0f2764deae3d4baf1c69 Listening for api requests
+2019/07/13 17:11:41 5d2a10cd64deae3d4baf1c6d Filename value cannot be an empty string
+2019/07/13 17:11:41 5d2a10cd64deae3d4baf1c6d Error: Filename value cannot be an empty string
+2019/07/13 17:12:02 5d2a10e264deae3dfd3c6255 Listening for api requests
+2019/07/13 17:14:24 5d2a117064deae3dfd3c6258 Country issue update value cannot be an empty string
+2019/07/13 17:14:24 5d2a117064deae3dfd3c6258 Error: Country issue update value cannot be an empty string
+2019/07/13 17:14:48 5d2a118864deae3dfd3c6259 Document with name mynewdocument6 does not exist
+2019/07/13 17:14:48 5d2a118864deae3dfd3c6259 Error: Document with name mynewdocument6 does not exist
+2019/07/13 17:15:10 5d2a119e64deae3dfd3c625a no peers to connect to
+2019/07/13 17:15:10 5d2a119e64deae3dfd3c625a Error: no peers to connect to
+2019/07/13 17:19:05 5d2a128964deae3ed528a145 Listening for api requests
+2019/07/13 17:24:03 5d2a13b364deae3ed528a146 Document version 4 does not exist for mynewdocument2
+2019/07/13 17:24:03 5d2a13b364deae3ed528a146 Error: Document version 4 does not exist for mynewdocument2
+2019/07/13 17:24:23 5d2a13c764deae3ed528a147 Document with name: mynewdocument24 does not exist.
+2019/07/13 17:24:23 5d2a13c764deae3ed528a147 Error: Document with name: mynewdocument24 does not exist.
+2019/07/13 17:24:34 5d2a13d264deae3ed528a148 no peers to connect to
+2019/07/13 17:24:34 5d2a13d264deae3ed528a148 Error: no peers to connect to
+2019/07/13 17:24:47 5d2a13df64deae3ed528a149 no peers to connect to
+2019/07/13 17:24:47 5d2a13df64deae3ed528a149 Error: no peers to connect to
+2019/07/13 17:25:55 5d2a142364deae3ed528a14a Document with name: mynewdocument27 does not exist.
+2019/07/13 17:25:55 5d2a142364deae3ed528a14a Error: Document with name: mynewdocument27 does not exist.
+2019/07/13 17:30:11 5d2a152364deae3ed528a14b Document with name mynewdocument2 does not exist
+2019/07/13 17:30:11 5d2a152364deae3ed528a14b Error: Document with name mynewdocument2 does not exist
+2019/07/13 17:31:18 5d2a156664deae3ed528a14c Filename value cannot be an empty string
+2019/07/13 17:31:18 5d2a156664deae3ed528a14c Error: Filename value cannot be an empty string
+2019/07/13 17:39:04 5d2a173864deae3ed528a14f no peers to connect to
+2019/07/13 17:39:04 5d2a173864deae3ed528a14f Error: no peers to connect to
+2019/07/13 17:41:41 5d2a17d564deae3ed528a150 First name value cannot be an empty string
+2019/07/13 17:41:41 5d2a17d564deae3ed528a150 Error: First name value cannot be an empty string
+2019/07/13 17:42:36 5d2a180c64deae3fdde8bae6 Listening for api requests
+2019/07/13 19:43:31 5d2a346364deae3fdde8bae7 Id value cannot be an empty string
+2019/07/13 19:43:31 5d2a346364deae3fdde8bae7 Error: Id value cannot be an empty string
+2019/07/13 19:45:20 5d2a34d064deae3fdde8bae8 Filename value cannot be an empty string
+2019/07/13 19:45:20 5d2a34d064deae3fdde8bae8 Error: Filename value cannot be an empty string
+2019/07/13 19:46:43 5d2a352364deae3fdde8bae9 Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 19:46:43 5d2a352364deae3fdde8bae9 Error: Post http://localhost:5001/api/v0/object/new?arg=unixfs-dir: dial tcp 127.0.0.1:5001: connect: connection refused
+2019/07/13 19:51:38 5d2a364a64deae3fdde8baec Document with name mynewdocumentegeigeg does not exist
+2019/07/13 19:51:38 5d2a364a64deae3fdde8baec Error: Document with name mynewdocumentegeigeg does not exist
+2019/07/13 19:51:55 5d2a365b64deae3fdde8baee no peers to connect to
+2019/07/13 19:51:55 5d2a365b64deae3fdde8baee Error: no peers to connect to
+2019/07/13 19:56:57 5d2a378964deae3fdde8baf0 crypto/rsa: decryption error
+2019/07/13 19:56:57 5d2a378964deae3fdde8baf0 Error: crypto/rsa: decryption error
+2019/07/13 19:57:09 5d2a379564deae3fdde8baf1 crypto/rsa: decryption error
+2019/07/13 19:57:09 5d2a379564deae3fdde8baf1 Error: crypto/rsa: decryption error
+2019/07/13 19:58:00 5d2a37c864deae3fdde8baf2 crypto/rsa: decryption error
+2019/07/13 19:58:00 5d2a37c864deae3fdde8baf2 Error: crypto/rsa: decryption error
+2019/07/13 19:58:20 5d2a37dc64deae45782615b8 Listening for api requests
+2019/07/13 19:58:31 5d2a37e764deae45782615b9 crypto/rsa: decryption error
+2019/07/13 19:58:31 5d2a37e764deae45782615b9 Error: crypto/rsa: decryption error
+2019/07/13 19:59:10 5d2a380e64deae45782615ba Document version value cannot be an empty string
+2019/07/13 19:59:10 5d2a380e64deae45782615ba Error: Document version value cannot be an empty string
+2019/07/13 20:20:12 5d2a3cfc64deae45782615bd object/patch/add-link: failed to get block for QmSx61N9RSPyEBxvRiEPzmEw2GFFtHh5NXkFPcXvXSiH4J: ran out of retries trying to get past temporary error: open /home/anniran/.ipfs/blocks/P5/CIQEJAVODENIZOC3EGABS7YLNKHQNNOTO36KNMIHB4EKAMNMYGCCP5Y.data: too many open files
+2019/07/13 20:20:12 5d2a3cfc64deae45782615bd Error: object/patch/add-link: failed to get block for QmSx61N9RSPyEBxvRiEPzmEw2GFFtHh5NXkFPcXvXSiH4J: ran out of retries trying to get past temporary error: open /home/anniran/.ipfs/blocks/P5/CIQEJAVODENIZOC3EGABS7YLNKHQNNOTO36KNMIHB4EKAMNMYGCCP5Y.data: too many open files
+2019/07/13 20:28:41 5d2a3ef964deae45782615bf First name value cannot be an empty string
+2019/07/13 20:28:41 5d2a3ef964deae45782615bf Error: First name value cannot be an empty string
+2019/07/13 20:29:33 5d2a3f2d64deae4824292063 Listening for api requests
+2019/07/13 20:29:48 5d2a3f3c64deae4824292064 First name value cannot be an empty string
+2019/07/13 20:29:48 5d2a3f3c64deae4824292064 Error: First name value cannot be an empty string
+2019/07/13 20:29:53 5d2a3f4164deae4824292065 First name value cannot be an empty string
+2019/07/13 20:29:53 5d2a3f4164deae4824292065 Error: First name value cannot be an empty string
+2019/07/13 20:31:29 5d2a3fa164deae4824292066 Field value:  lastName does not match acceptable data fields.
+2019/07/13 20:31:29 5d2a3fa164deae4824292066 Error: Field value:  lastName does not match acceptable data fields.
+2019/07/13 20:34:05 5d2a403d64deae49311df54c Listening for api requests
+2019/07/13 20:34:18 5d2a404a64deae49311df54e Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 20:34:18 5d2a404a64deae49311df54e Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 20:37:07 5d2a40f364deae49c55041ad Listening for api requests
+2019/07/13 20:40:30 5d2a41be64deae49c55041af no peers to connect to
+2019/07/13 20:40:30 5d2a41be64deae49c55041af Error: no peers to connect to
+2019/07/13 20:40:38 5d2a41c664deae49c55041b1 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Document name mynewdocument does not exist in recipient account records and its data cannot be requested
+2019/07/13 20:40:38 5d2a41c664deae49c55041b1 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Document name mynewdocument does not exist in recipient account records and its data cannot be requested
+2019/07/13 20:41:54 5d2a421264deae49c55041b2 Filename value cannot be an empty string
+2019/07/13 20:41:54 5d2a421264deae49c55041b2 Error: Filename value cannot be an empty string
+2019/07/13 20:44:00 5d2a429064deae49c55041b6 no peers to connect to
+2019/07/13 20:44:00 5d2a429064deae49c55041b6 Error: no peers to connect to
+2019/07/13 20:44:25 5d2a42a964deae49c55041b9 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 20:44:25 5d2a42a964deae49c55041b9 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 20:49:06 5d2a43c264deae4aefac1972 Listening for api requests
+2019/07/13 20:50:49 5d2a442964deae4aefac1973 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request recipient Id does not match the provided id
+2019/07/13 20:50:49 5d2a442964deae4aefac1973 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request recipient Id does not match the provided id
+2019/07/13 20:51:33 5d2a445564deae4aefac1974 no peers to connect to
+2019/07/13 20:51:33 5d2a445564deae4aefac1974 Error: no peers to connect to
+2019/07/13 20:52:03 5d2a447364deae4aefac1975 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 20:52:03 5d2a447364deae4aefac1975 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 20:56:39 5d2a458764deae4aefac1976 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 20:56:39 5d2a458764deae4aefac1976 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 21:02:24 5d2a46e064deae4aefac1978 Request Id value cannot be an empty string
+2019/07/13 21:02:24 5d2a46e064deae4aefac1978 Error: Request Id value cannot be an empty string
+2019/07/13 21:04:23 5d2a475764deae4c39dc0d10 Listening for api requests
+2019/07/13 21:09:16 5d2a487c64deae4c39dc0d11 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 21:09:16 5d2a487c64deae4c39dc0d11 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request status is already accepted and cannot be accepted
+2019/07/13 21:10:30 5d2a48c664deae4c39dc0d13 Field value:  phone does not match acceptable data fields.
+2019/07/13 21:10:30 5d2a48c664deae4c39dc0d13 Error: Field value:  phone does not match acceptable data fields.
+2019/07/13 21:12:03 5d2a492364deae4c39dc0d15 Request Id value cannot be an empty string
+2019/07/13 21:12:03 5d2a492364deae4c39dc0d15 Error: Request Id value cannot be an empty string
+2019/07/13 21:13:32 5d2a497c64deae4d41106b93 Listening for api requests
+2019/07/13 21:13:51 5d2a498f64deae4d41106b94 Request Id value cannot be an empty string
+2019/07/13 21:13:51 5d2a498f64deae4d41106b94 Error: Request Id value cannot be an empty string
+2019/07/13 21:13:58 5d2a499664deae4d41106b95 Request Id value cannot be an empty string
+2019/07/13 21:13:58 5d2a499664deae4d41106b95 Error: Request Id value cannot be an empty string
+2019/07/13 21:14:51 5d2a49cb64deae4da9c07259 Listening for api requests
+2019/07/13 21:19:01 5d2a4ac564deae4da9c0725a no peers to connect to
+2019/07/13 21:19:01 5d2a4ac564deae4da9c0725a Error: no peers to connect to
+2019/07/13 21:19:09 5d2a4acd64deae4da9c0725b no peers to connect to
+2019/07/13 21:19:09 5d2a4acd64deae4da9c0725b Error: no peers to connect to
+2019/07/13 21:19:20 5d2a4ad864deae4da9c0725c Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 70108e8b750c5656108885078c864bda does not exist
+2019/07/13 21:19:20 5d2a4ad864deae4da9c0725c Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 70108e8b750c5656108885078c864bda does not exist
+2019/07/13 21:20:04 5d2a4b0464deae4da9c0725d Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 70108e8b750c5656108885078c864bda does not exist
+2019/07/13 21:20:04 5d2a4b0464deae4da9c0725d Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 70108e8b750c5656108885078c864bda does not exist
+2019/07/13 21:20:58 5d2a4b3a64deae4da9c0725f no peers to connect to
+2019/07/13 21:20:58 5d2a4b3a64deae4da9c0725f Error: no peers to connect to
+2019/07/13 21:21:06 5d2a4b4264deae4da9c07261 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 21:21:06 5d2a4b4264deae4da9c07261 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 21:21:58 5d2a4b7664deae4da9c07263 no peers to connect to
+2019/07/13 21:21:58 5d2a4b7664deae4da9c07263 Error: no peers to connect to
+2019/07/13 21:22:06 5d2a4b7e64deae4da9c07264 no peers to connect to
+2019/07/13 21:22:06 5d2a4b7e64deae4da9c07264 Error: no peers to connect to
+2019/07/13 21:22:21 5d2a4b8d64deae4da9c07265 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:22:21 5d2a4b8d64deae4da9c07265 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:25:11 5d2a4c3764deae4da9c07266 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: No requests with publicId : 5d2a4b4a64deae4da9c07262 exist.
+2019/07/13 21:25:11 5d2a4c3764deae4da9c07266 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: No requests with publicId : 5d2a4b4a64deae4da9c07262 exist.
+2019/07/13 21:25:36 5d2a4c5064deae4da9c07267 no peers to connect to
+2019/07/13 21:25:36 5d2a4c5064deae4da9c07267 Error: no peers to connect to
+2019/07/13 21:25:43 5d2a4c5764deae4da9c07268 no peers to connect to
+2019/07/13 21:25:43 5d2a4c5764deae4da9c07268 Error: no peers to connect to
+2019/07/13 21:25:56 5d2a4c6464deae4da9c07269 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:25:56 5d2a4c6464deae4da9c07269 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:28:08 5d2a4ce864deae4ecb9203a6 Listening for api requests
+2019/07/13 21:28:24 5d2a4cf864deae4ecb9203a7 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:28:24 5d2a4cf864deae4ecb9203a7 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 7605c986d486ff212d4e09ff38b7339c does not exist
+2019/07/13 21:37:28 5d2a4f1864deae4ecb9203a9 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Unknown request type
+2019/07/13 21:37:28 5d2a4f1864deae4ecb9203a9 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Unknown request type
+2019/07/13 21:38:22 5d2a4f4e64deae4ecb9203aa Unknown selector key
+2019/07/13 21:38:22 5d2a4f4e64deae4ecb9203aa Error: Unknown selector key
+2019/07/13 21:40:00 5d2a4fb064deae4ecb9203ab Unknown selector key
+2019/07/13 21:40:00 5d2a4fb064deae4ecb9203ab Error: Unknown selector key
+2019/07/13 21:40:14 5d2a4fbe64deae4ecb9203ac Unknown selector key
+2019/07/13 21:40:14 5d2a4fbe64deae4ecb9203ac Error: Unknown selector key
+2019/07/13 21:46:22 5d2a512e64deae5020c7dee9 Listening for api requests
+2019/07/13 21:49:50 5d2a51fe64deae510755ec72 Listening for api requests
+2019/07/13 21:52:25 5d2a529964deae510755ec73 no peers to connect to
+2019/07/13 21:52:25 5d2a529964deae510755ec73 Error: no peers to connect to
+2019/07/13 21:53:22 5d2a52d264deae510755ec74 no peers to connect to
+2019/07/13 21:53:22 5d2a52d264deae510755ec74 Error: no peers to connect to
+2019/07/13 22:06:25 5d2a55e164deae5218a908c8 Listening for api requests
+2019/07/13 22:08:07 5d2a564764deae526a5f297d Listening for api requests
+2019/07/13 22:08:54 5d2a567664deae526a5f297e Document name value cannot be an empty string
+2019/07/13 22:08:54 5d2a567664deae526a5f297e Error: Document name value cannot be an empty string
+2019/07/13 22:09:50 5d2a56ae64deae52dca39001 Listening for api requests
+2019/07/13 22:11:57 5d2a572d64deae53478548e1 Listening for api requests
+2019/07/13 22:20:14 5d2a591e64deae53478548e2 Request type value cannot be an empty string
+2019/07/13 22:20:14 5d2a591e64deae53478548e2 Error: Request type value cannot be an empty string
+2019/07/13 22:34:46 5d2a5c8664deae1258ae4e34 Listening for api requests
+2019/07/13 22:36:48 5d2a5d0064deae1258ae4e38 no peers to connect to
+2019/07/13 22:36:48 5d2a5d0064deae1258ae4e38 Error: no peers to connect to
+2019/07/13 22:38:34 5d2a5d6a64deae1258ae4e3a Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: c9ff0b4011a0be6f80f840948c191667 does not exist
+2019/07/13 22:38:34 5d2a5d6a64deae1258ae4e3a Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: c9ff0b4011a0be6f80f840948c191667 does not exist
+2019/07/13 22:47:38 5d2a5f8a64deae13bc17f7bf Listening for api requests
+2019/07/13 22:47:57 5d2a5f9d64deae13bc17f7c1 Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 22:47:57 5d2a5f9d64deae13bc17f7c1 Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with same image already exists
+2019/07/13 22:50:13 5d2a602564deae143cd34479 Listening for api requests
+2019/07/13 22:51:09 5d2a605d64deae143cd3447b Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 3e97df761fa7addb40f02d18d1cde50f does not exist
+2019/07/13 22:51:09 5d2a605d64deae143cd3447b Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: 3e97df761fa7addb40f02d18d1cde50f does not exist
+2019/07/13 22:55:56 5d2a617c64deae143cd3447d Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: d82b38bf215b495ab45117982ede5de0 does not exist
+2019/07/13 22:55:56 5d2a617c64deae143cd3447d Error: Transaction processing for endorser [localhost:13001]: Chaincode status Code: (500) UNKNOWN. Description: Request with id: d82b38bf215b495ab45117982ede5de0 does not exist

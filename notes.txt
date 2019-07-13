@@ -1,0 +1,156 @@
+Chaincode:
+set up custom folder in cli.cerberus.dev container volumes to mount from it
+
+CLI operations:
+docker exec -it cli.cerberus.dev bash
+export CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/sipher.cerberus.dev/users/Admin@sipher.cerberus.dev/msp CORE_PEER_ADDRESS=anchorpr.sipher.cerberus.dev:7051 CORE_PEER_LOCALMSPID="SipherMSP" CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/sipher.cerberus.dev/peers/anchorpr.sipher.cerberus.dev/tls/ca.crt
+
+PAChannel:
+export PERSON_ACCOUNTS_CC_SRC_PATH="github.com/chaincode/person/"
+
+export PERSON_ACCOUNTS_CC_SRC_PATH="cerberus/chaincode/person/"
+
+peer chaincode install -n personaccountscc -v 1.0 -l golang -p ${PERSON_ACCOUNTS_CC_SRC_PATH} >&log.txt
+
+export OSPRIMARY1_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/cerberus.dev/orderers/osprimary1.cerberus.dev/msp/tlscacerts/tlsca.cerberus.dev-cert.pem
+
+peer chaincode instantiate -o osprimary1.cerberus.dev:7050 --tls true --cafile $OSPRIMARY1_CA -C pachannel -n personaccountscc -l golang -v 1.0 -c '{"Args":["init", "anna", "aleksandrova", "angelova", "angelowwa@gmail.com", "0877150173"]}' -P "AND ('SipherMSP.peer','WhiteBoxMSP.peer')" >&log.txt
+peer chaincode list --instantiated -C pachannel
+
+peer chaincode query -C pachannel -n personaccountscc -c '{"Args":["queryPersonAccountByEmail","angelowwa@gmail.com"]}' >&log.txt
+peer chaincode invoke -o osprimary1.cerberus.dev:7050 --tls true --cafile $OSPRIMARY1_CA -C pachannel -n personaccountscc --peerAddresses anchorpr.sipher.cerberus.dev:7051 -c '{"Args":["initPersonAccount","anniran","angelova","annaaangelowwa@gmail.com","12345"]}'
+
+curl http://useranchorprsipher:passwordanchorprsipher@couchdb.anchorpr.sipher:5984/pachannel_personaccountscc/_all_docs
+
+
+OAChannel:
+export ORGANIZATION_ACCOUNTS_CC_SRC_PATH="github.com/chaincode/cerberus_accounts/organization/"
+peer chaincode install -n organizationaccountscc -v 1.0 -l golang -p ${ORGANIZATION_ACCOUNTS_CC_SRC_PATH} >&log.txt
+
+export OSPRIMARY2_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/cerberus.dev/orderers/osprimary2.cerberus.dev/msp/tlscacerts/tlsca.cerberus.dev-cert.pem
+
+peer chaincode instantiate -o osprimary2.cerberus.dev:7050 --tls true --cafile $OSPRIMARY2_CA -C oachannel -n organizationaccountscc -l golang -v 1.0 -c '{"Args":["init", "myOrganization", "Anna", "myAddress", "angelowwa@gmail.com", "angelowwa@gmail.com", "0877150173"]}' -P "AND ('SipherMSP.peer','WhiteBoxMSP.peer')" >&log.txt
+peer chaincode list --instantiated -C oachannel
+
+peer chaincode query -C oachannel -n organizationaccountscc -c '{"Args":["queryOrganizationAccountByName","myOrganization"]}' >&log.txt
+
+peer chaincode invoke -o osprimary2.cerberus.dev:7050 --tls true --cafile $OSPRIMARY2_CA -C oachannel -n organizationaccountscc -c '{"Args":["queryOrganizationAccountByName","myorganization"]}'
+
+
+curl http://useranchorprsipher:passwordanchorprsipher@couchdb.anchorpr.sipher:5984/iachannel_integrationaccountscc/_all_docs
+
+
+IAChannel:
+peer chaincode list --instantiated -C iachannel
+
+peer chaincode query -C iachannel -n integrationaccountscc -c '{"Args":["queryIntegrationAccountByName","myOrganization"]}' >&log.txt
+
+
+CA: // not needed - done automatically
+
+export CORE_PEER_ID=anchorpr.sipher.cerberus.dev
+export CORE_LOGGING_PEER=debug
+export CORE_CHAINCODE_LOGGING_LEVEL=DEBUG
+export CORE_PEER_LOCALMSPID=SipherMSP
+export CORE_PEER_MSPCONFIGPATH=crypto-config/peerOrganizations/sipher.cerberus.dev/msp
+export CORE_PEER_ADDRESS=anchorpr.sipher.cerberus.dev:7051
+
+fabric-ca-client enroll -u http://admin:adminpw@localhost:7054
+-- tls enabled
+fabric-ca-client enroll -u https://admin:adminpw@localhost:7054
+
+
+fabric-ca-client register --id.name user1 --id.affiliation sipher.members --id.attrs 'hf.Revoker=true,admin=true:ecert' --id.type user
+
+ssh -i cerberus-sipher-01 root@159.203.35.156
+
+3 groups of accounts
+
+
+the way we identify a person - create an id  - not email
+think about how to do it
+public random id - randomly generated string
+qr code - sca the qr code and get the identity
+the way the id will be referenced - pivot table - the original id and the generated id
+when a person sends the request ->
+
+mongodb - id creation principle -> object creation
+host name
+current stamp
+email
+hash them
+
+front - call chaincode - add transaction - request ->
+
+
+
+chaincode:
+
+createAccount
+update first name
+update last name
+update email
+update phone1
+update phone 2
+delete account
+
+// update document in the chaincode -> id + dataAsBytes json encoded
+create document
+update document country issue
+update document person name
+update document name
+
+// delete document function + check if there is a third argument
+delete document
+delete document version
+
+// queries:
+send query selector key as argument from the channel function
+
+// updates for level 1
+id
+send struct field as string argument + its value
+check if there is such field inside the chaincode function
+
+// updates for leve 2+
+id
+json encoded data
+
+
+// request for information
+fields to reveal :
+first name
+last name
+email
+phone1 
+phone 2
+
+documents: 
+document name + version
+document name
+person name
+country issue 
+
+no ipfs data
+
+use function for obtaining the document as png
+
+request:
+type Request struct {
+    firstName
+    lastName
+    email
+    phone1
+    phone2
+
+}
+
+type Document struct {
+    documentName
+    personName 
+    countryIssue
+
+}
+
+document - add documentID
+person -> holder
